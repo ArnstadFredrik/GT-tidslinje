@@ -1,0 +1,36 @@
+body {
+  background: lightgray;
+  font-family: sans-serif
+}
+
+.title {
+  font-size: 2rem
+}
+
+.period {
+  font-size: 1.2rem
+}
+
+.timeline {
+  border-left: 5px dashed darkgray;
+  padding-left: 20px;
+  margin-left: 20px;
+  position: relative;
+  width: 500px
+}
+
+.timeline:after,
+.timeline:before {
+  content: "";
+  width: 35px;
+  height: 35px;
+  border-radius: 50%;
+  display: block;
+  background: darkgray;
+  position: relative;
+  left: -40px;
+}
+
+.timelineEntry {
+  border-bottom: 2px solid darkGray
+}
